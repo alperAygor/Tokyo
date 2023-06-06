@@ -1,0 +1,18 @@
+@import url(tokyo_style.css);
+@import url(tokyo_link.css);
+
+*{
+    box-sizing: border-box;
+    font-family:mulish,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.txt-white{
+    color: white;
+}
+.txt-gray{
+    color: #abb8c3;
+}

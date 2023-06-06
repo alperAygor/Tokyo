@@ -1,0 +1,54 @@
+@media (min-width :992px){
+    .flex-container-item2 a{
+        background-color: #454545;
+        border: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    .flex-container a:hover{
+        color: #bbc4c2;
+    }
+    button{
+        text-decoration: none;
+        border: none; 
+        cursor: pointer;
+        background-color: #2E2E2E;
+    
+    }
+    button:hover{
+        color:#abb8c3;
+    }
+    #tokyo a{ 
+        color: white; 
+        text-decoration: none;
+    }
+}
+@media (max-width:992px){
+    .container-1 a{
+        text-decoration: none;
+        color: #bbc4c2;
+    
+    }
+    #tokyo a{
+        color: white; 
+        text-decoration: none;
+    }
+    .flex-container a{
+        background-color: #454545;
+        border: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 0 5px;
+    }
+    .flex-container a:hover{
+        color: #bbc4c2;
+    }
+    .navbar-mobile #linkbar:hover a{
+        color: gray;
+    }
+    .navbar-mobile .nav-list-link a:hover{
+        color: gray;
+    }
+}

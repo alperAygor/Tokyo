@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo-Just Another WordPress Site</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div class="container-1 ">   
+            <span id="linkbar"><a href="#" ><i class="fa-solid fa-bars"></i></a></span>
+            <span class="txt-white nav-box" id="tokyo"><a href=""><h1 style="letter-spacing: 1px;">TOKYO</h1></a></span>
+            <div>
+                <div class="nav-list txt-gray nav-box">
+                    <div class="nav-list-link "><a href="#">Home</a></div>
+                    <div class="nav-list-link "><a href="#">About</a></div>
+                    <div class="nav-list-link "><a href="#">Service</a></div>
+                    <div class="nav-list-link "><a href="#">Portfolio</a></div>
+                    <div class="nav-list-link "><a href="#">News</a></div>
+                    <div class="nav-list-link"><a href="#">Contact</a></div>
+                </div>
+            </div>
+            <div class="nav-box">
+                <div class="searchSection">
+                    <input type="search" style="background-color: #2E2E2E; color: gray;"  placeholder="Search" >
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="txt-gray nav-box ">
+                <p><span></span>2022 Tokyo</p>
+                <p>Created by<strong style="color: white;"> Marketify</strong></p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="flex-container">
+                <div class="flex-container-item1">
+                    <img src="Untitled.jpeg" alt="">
+                </div>
+                <div class="flex-container-item2" style="color:white;">
+                    <h1 style=" font-size: 55px;">ADRIANO SMITH</h1>
+                    <p >I am a WordPress Developer at heart and create features that are best suited for the job at hand.</p>
+                    <div>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href><i class="fa-solid fa-basketball"></i></a>
+                        <a href><i class="fa-brands fa-tiktok"></i></a>
+                        
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <script> 
+            var linkBar=document.querySelector("#linkbar");
+            var links=document.querySelector(".container-1");
+            
+            linkBar.addEventListener("click",function(){
+                links.classList.toggle("navbar-mobile")
+            })
+    
+    </script>
+</body>
+</html>
